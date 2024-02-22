@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.score_board{
+    width: 180px;
+    height: 135px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    text-align: center;
+}
+
+.player1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: aqua;
+}
+
+.player2{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: greenyellow;
+}
+
+
+
+.container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    border: 2px solid white;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.score_container{
+    margin-bottom: 20px;
+    color: orange;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: dotted;
+}
+
+.resetButton, .compButton{
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: bolder;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: aqua;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+
